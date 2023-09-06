@@ -1,0 +1,48 @@
+.heading {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    background-color: rgb(229, 229, 60);
+    border: 1px solid black;
+    height: 400px;
+    max-width: 500px;
+}
+
+.regards {
+    font-variant-numeric: oldstyle-nums;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.content1 {
+    flex-grow: 1;
+    color: purple;
+    max-width: 300px;
+}
+
+.content2 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.i1 {
+    display: flex;
+    background-color: white;
+    margin: 5px;
+}
+
+.b1 {
+    padding: 5px;
+    color: blue;
+    flex-grow: 1;
+}
+
+.black {
+    width: 20px;
+    background-color: black;
+}

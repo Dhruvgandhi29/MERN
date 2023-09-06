@@ -1,0 +1,19 @@
+td,
+th {
+    padding: 5px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #f4f45c;
+}
+
+body {
+    background: linear-gradient(to top left, #28c48d, #7dd56f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
